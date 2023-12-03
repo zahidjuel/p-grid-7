@@ -1,23 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>advance layout</title>
     <link rel="stylesheet" href="styles/base.css">
     <style>
-        .container{
+        .container {
             height: 100vh;
             display: grid;
             /* grid-template-columns: repeat(5, 1fr); */
-            grid-template-columns: repeat(auto-fit , minmax(200px, 1fr));
+            /* grid-template-columns: repeat(auto-fit, 200px); */
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
             /* grid-template-columns: repeat(auto-fill , minmax(100px, 1fr)); */
             /* grid-template-rows: repeat(2, 1fr); */
-            grid-template-rows: repeat(1, 1fr);
-            grid-auto-rows: 1fr;
+            /* grid-template-rows: repeat(1, 1fr); */
+            /* grid-auto-rows: 1fr; */
         }
     </style>
 </head>
+
 <body>
     <div class="container">
         <div>1</div>
@@ -30,6 +33,9 @@
         <div>8</div>
         <div>9</div>
         <div>10</div>
+        <div>11</div>
+        <div>12</div>
     </div>
 </body>
+
 </html>
